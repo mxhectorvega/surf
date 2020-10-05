@@ -136,7 +136,12 @@ p, winid, NULL } }
  */
 static SiteSpecific styles[] = {
 	/* regexp               file in $styledir */
-	{ ".*",                     "default.css" },
+	/* { ".*",                     "default.css" }, */
+	{ ".*google.com.*",      "default.css" },
+	{ ".*suckless.org.*",       "default.css" },
+	{ ".*wikipedia.org.*",      "default.css" },
+	{ ".*github.com.*",      "default.css" },
+	{ ".*archlinux.org.*",      "default.css" },
 };
 
 /* certificates */
