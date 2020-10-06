@@ -142,6 +142,8 @@ static SiteSpecific styles[] = {
 	{ ".*wikipedia.org.*",      "default.css" },
 	{ ".*github.com.*",      "default.css" },
 	{ ".*archlinux.org.*",      "default.css" },
+	{ ".*facebook.com.*",      "default.css" },
+	{ ".*reddit.com.*",      "default.css" },
 };
 
 /* certificates */
